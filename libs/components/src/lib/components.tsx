@@ -7,8 +7,12 @@ export interface ComponentsProps {}
 
 export function Components(props: ComponentsProps) {
   return (
-    <div className={styles.cmp}>
+    <div className={styles.components}>
       <h1>Welcome to components!</h1>
+      <div className={styles.inner}>
+        <h2>Inner</h2>
+        <div className="p-4 bg-green-50 text-green-700">Inner Inner</div>
+      </div>
     </div>
   );
 }

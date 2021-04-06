@@ -1,4 +1,8 @@
-.cmp {
+.components {
   background: red;
   padding: 1rem;
+}
+
+.inner {
+  margin-top: 1rem;
 }
