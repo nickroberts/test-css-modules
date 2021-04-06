@@ -24,7 +24,7 @@ module.exports = async ({ config, mode }) => {
   const svgRuleIndex = config.module.rules.findIndex((rule) => {
     const { test } = rule;
 
-    return test.toString().startsWith('/\\.(svg|ico');
+    return test && test.toString().startsWith('/\\.(svg|ico');
   });
   config.module.rules[
     svgRuleIndex
