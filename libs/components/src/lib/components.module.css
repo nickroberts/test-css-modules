@@ -1,5 +1,6 @@
 .components {
-  background: red;
+  background: var(--color-brand);
+  color: var(--color-brand-contrast);
   padding: 1rem;
 }
 

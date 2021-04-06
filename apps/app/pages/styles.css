@@ -1,0 +1,10 @@
+:root {
+  --color-brand: #105a8f;
+  --color-brand-dark: #254981;
+  --color-brand-lighter: #367dbc;
+  --color-brand-contrast: theme(colors.white);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
