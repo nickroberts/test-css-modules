@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@test-css-modules/components": ["libs/components/src/index.ts"],
+      "@test-css-modules/storybook": ["libs/storybook/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
